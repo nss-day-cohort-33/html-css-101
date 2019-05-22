@@ -1,0 +1,45 @@
+body {
+  background-color: #bada55;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 8px;
+}
+
+.rep_info img {
+  float: left;
+  margin: 0 8px 8px 0;
+}
+
+.rep_committees {
+  clear: left;
+}
+
+/* If you style an id, then try to style the same element with a class. It won't change!
+#myh2 and .taco are an id and a class on the same element. But it will stay fuchsia */
+#myh2 {
+  color: fuchsia;
+}
+
+.taco {
+  color: orange;
+}
+
+.fred {
+  border: 2px solid red
+}
+
+/* css chapter styles
+ */
+ /* How are these different? */
+.article > .article__header {
+  font-size: 1.85em;
+  line-height: 1.2em;
+}
+
+.article .article__header {
+  font-size: 1.85em;
+  line-height: 1.2em;
+}
